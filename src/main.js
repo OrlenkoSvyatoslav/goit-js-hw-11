@@ -3,9 +3,9 @@ import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { getImg } from './js/pixabay-api';
-import { createMarkup } from './js/render-functions';
+// import { createMarkup } from './js/render-functions';
 
-export const gallery = document.querySelector('.gallery');
+// export const gallery = document.querySelector('.gallery');
 const form = document.querySelector('.form');
 export const inputValue = document.querySelector('.input-value-js');
 export const loader = document.querySelector('form-container div');
