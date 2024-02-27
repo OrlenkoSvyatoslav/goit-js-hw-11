@@ -6,6 +6,22 @@
 */
 @import url('./reset.css');
 
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
 .loader {
   width: 40px;
   height: 40px;
@@ -65,8 +81,7 @@
   color: #ffffff;
 }
 
-.form button:hover,
-.form button:focus {
+.form button:hover {
   background-color: #627ee5;
   border-radius: 8px;
   color: #000000;
@@ -75,13 +90,14 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 10px;
+  column-gap: 10px;
   margin-top: 20px;
 }
 
 .gallery-image {
-  width: 200px;
-  height: 140px;
+  width: 360px;
+  height: 200px;
 }
 
 .gallery-item {
@@ -96,4 +112,11 @@
   gap: 4px;
   padding-left: 4px;
   padding-right: 2px;
+}
+
+.image-info {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 25px;
+  justify-content: space-around;
 }
