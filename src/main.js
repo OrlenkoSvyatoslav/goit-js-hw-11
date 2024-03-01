@@ -38,7 +38,7 @@ function onSubmitForm(event) {
 
     renderGalleryMarkup(data.hits);
 
-    loader.classList.add('loader');
+    loader.classList.remove('loader');
 
     lightbox.refresh();
   });
